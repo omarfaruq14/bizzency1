@@ -1,0 +1,169 @@
+/* COMMON CSS STARTS */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul li{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root{
+    --primaryfont: 'Ubuntu', sans-serif;
+    --secondaryfont: 'Abril Fatface', cursive;
+    --thirdfont: 'Open Sans', sans-serif;
+    --primarycolor: #0f2f44;
+    --secondarycolor: #ffc712;
+    --thirdcolor: #222222;
+    --fourthcolor:#8484bf;
+    
+}
+
+body{
+    font-family: var(--primaryfont);
+}
+button{
+    padding: 14px 20px;
+    background-color: var(--fourthcolor);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--primaryfont);
+    
+}
+button a{
+    color: white;
+}
+
+/* .btn{
+    background-color: var(--secondarycolor);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primarycolor);
+    padding: 16px 20px;
+    display: inline-block;
+} */
+/* COMMON CSS ENDS */
+
+/* HEADER STARTS */
+header{
+    background-color: var(--primarycolor);
+    color: white;
+}
+
+header .opening,
+header .welcome{
+    width: 50%;
+    padding: 19px 0;
+    
+}
+
+header .opening{
+    text-align: right;
+}
+/* HEADER ENDS */
+
+
+/* NAV STARTS */
+
+
+
+#heading .logo{
+    width: 30%;
+    margin: auto;
+}
+#heading .menu{
+    width: 70%;
+    
+    
+}
+.menu{
+    text-align: right;
+
+}
+.menu ul,li{
+    display: inline-block;
+    
+    padding: 40px 20px;
+}
+
+.menu ul,li a{
+    color: var(--thirdcolor);
+    font-size: 16px;
+    font-family: var(--primaryfont);
+    font-weight: 500;
+    
+    
+}
+
+
+/* NAV ENDS */
+/* BANNER STARTS */
+#banner_1{
+    background-image: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+
+#banner_1 .para1{
+    width: 40%;
+    padding: 140px 0;
+
+
+}
+#banner_1 .para1 h4{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    line-height: 2px;
+}
+#banner_1 .para1 h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: var(--secondaryfont);
+    color: var(--primarycolor);
+    text-transform: uppercase;
+
+}
+
+#banner_1 .para1 h5{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--primaryfont);
+    color: var(--fourthcolor);
+    letter-spacing: 14px ;
+    line-height: 3px;
+    
+}
+#banner_1 .para1 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--thirdfont);
+    color: #444444;
+    padding: 34px 0;
+   
+}
+
+
+
+/* BANNER ENDS */
